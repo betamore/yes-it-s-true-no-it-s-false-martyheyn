@@ -1,6 +1,6 @@
 function boolToWord( bool ){
-  // Write your code here
-  
+
+  return bool == true ? "Yes" : (bool == false ? "No" : "Input must be a boolean value - true or false")
 }
 
 
